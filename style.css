@@ -1,0 +1,96 @@
+body {
+  background-color: #F7F9FC;
+  font-family: 'Open Sans', sans-serif;
+  color: #202030;
+  font-size: 40px
+  line-height: 10px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #39304A;
+  font-size: 45px;
+  margin: 10px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #39304A;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto; /* This automatically sets left/right margins */
+    text-align: center;
+  }
+
+.card {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  padding: 20px;
+  margin: 50px;
+  box-shadow: 2px 2px 10px rgb(230,230,230);
+  border-radius: 4px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.icon-grey {
+  font-size: 50px;
+  color: rgb(100,100,100);
+}
+
+.icon-grey:hover {
+  color: rgb(200,200,200);
+}
+
+.btn-blue {
+  color: white;
+  background-color: #6B72E1;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto; /* This automatically sets left/right margins */
+    text-align: center;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+    margin: 0 auto; /* This automatically sets left/right margins */
+    text-align: center;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto; /* This automatically sets left/right margins */
+    text-align: center;
+  }
+}
