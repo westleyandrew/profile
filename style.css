@@ -7,7 +7,7 @@ body {
 /*----Header CSS-------*/
 
 .header {
-  height: 50vh;
+  height: 100vh;
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/background.jpg);
   background-position: center;
   background-size: cover;
@@ -15,7 +15,7 @@ body {
 }
 
 .user-box {
-  top:25%;
+  top:50%;
   left:50%;
   transform: translate(-50%,-50%);
   position:absolute;
@@ -275,7 +275,6 @@ body {
   margin-top: 50px;
   color: #fff;
   padding-top: 10px;
-  margin-right: 10px;
 }
 
 .social-icons {
