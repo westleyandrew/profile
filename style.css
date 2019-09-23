@@ -280,7 +280,7 @@ body {
 .social-icons {
   top: 50%;
   transform: translateY(-50%);
-  position: sticky;
+  /* position: sticky; */
   z-index: 1;
   width: 80px;
 }
@@ -303,6 +303,6 @@ body {
 
 .social-icons ul li:hover {
   padding-left: 30px;
-  width: 80px;
+  width: 70px;
   transition: 1s;
 }
